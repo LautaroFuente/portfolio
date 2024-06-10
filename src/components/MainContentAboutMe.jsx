@@ -14,6 +14,7 @@ function MainContentAboutMe() {
           style={{
             textAlign: "center",
             padding: "1rem",
+            maxWidth: "70%",
           }}
         >
           Hola, mi nombre es Lautaro Fuente y soy estudiante de Licenciatura en

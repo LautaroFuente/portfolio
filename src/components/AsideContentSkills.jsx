@@ -62,7 +62,12 @@ function AsideContentSkills() {
             NPM <img src={npm_photo} alt="icono" />
           </li>
           <li className="skills-item">
-            Express.JS <img src={express_photo} alt="icono" />
+            Express.JS{" "}
+            <img
+              src={express_photo}
+              style={{ filter: "invert(1)" }}
+              alt="icono"
+            />
           </li>
           <li className="skills-item width-3rem">
             MySQL <img src={mysql_photo} alt="icono" />
