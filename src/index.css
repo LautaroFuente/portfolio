@@ -17,7 +17,12 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--bg-color);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(28 28 28) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
   color: var(--text-color);
 }
 
@@ -95,7 +100,6 @@ body {
 }
 
 .container-aboutme {
-  border-bottom: 2px solid rgb(89 255 0);
   margin-bottom: 3rem;
   padding-bottom: 2rem;
   display: flex;
@@ -141,7 +145,8 @@ body {
 
 h3 {
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
 }
 
 .list-tech {

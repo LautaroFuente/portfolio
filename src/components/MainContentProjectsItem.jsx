@@ -14,7 +14,7 @@ function MainContentProjectsItem({ photo, techs, desc, link, type = "none" }) {
               <a href={link} target="_blank" style={{ textAlign: "center" }}>
                 <img
                   className="photo-project"
-                  src={photo}
+                  src={photo[0]}
                   alt="foto del projecto"
                 />
               </a>
@@ -23,7 +23,7 @@ function MainContentProjectsItem({ photo, techs, desc, link, type = "none" }) {
               <a href={link} target="_blank" style={{ textAlign: "center" }}>
                 <img
                   className="photo-project"
-                  src={photo}
+                  src={photo[1]}
                   alt="foto del projecto"
                 />
               </a>
@@ -32,7 +32,7 @@ function MainContentProjectsItem({ photo, techs, desc, link, type = "none" }) {
               <a href={link} target="_blank" style={{ textAlign: "center" }}>
                 <img
                   className="photo-project"
-                  src={photo}
+                  src={photo[2]}
                   alt="foto del projecto"
                 />
               </a>

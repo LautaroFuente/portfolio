@@ -1,19 +1,4 @@
-import bootstrap_photo from "../icons/icon-bootstrap.png";
-import css_photo from "../icons/icon-css-3.png";
-import express_photo from "../icons/icon-express-js.png";
-import git_photo from "../icons/icon-git.png";
-import github_photo from "../icons/icon-github.png";
-import html_photo from "../icons/icon-html-5.png";
-import java_photo from "../icons/icon-java.png";
-import js_photo from "../icons/icon-js.png";
-import mongo_photo from "../icons/icon-mongodb.png";
-import mysql_photo from "../icons/icon-mysql.png";
-import node_photo from "../icons/icon-node-js.png";
-import npm_photo from "../icons/icon-npm.png";
-import python_photo from "../icons/icon-python.png";
-import react_photo from "../icons/icon-react.png";
-import redux_photo from "../icons/icon-redux.png";
-import vite_photo from "../icons/icon-vite.png";
+import techIcons from "../icons/icons.js";
 
 function AsideContentSkills() {
   return (
@@ -29,57 +14,60 @@ function AsideContentSkills() {
         </h3>
         <ul className="skills-list">
           <li className="skills-item">
-            HTML <img src={html_photo} alt="icono" />
+            HTML <img src={techIcons.html} alt="icono" />
           </li>
           <li className="skills-item">
-            CSS <img src={css_photo} alt="icono" />
+            CSS <img src={techIcons.css} alt="icono" />
           </li>
           <li className="skills-item">
-            Bootstrap <img src={bootstrap_photo} alt="icono" />
+            Bootstrap <img src={techIcons.bootstrap} alt="icono" />
           </li>
           <li className="skills-item">
-            GIT <img src={git_photo} alt="icono" />
+            GIT <img src={techIcons.git} alt="icono" />
           </li>
           <li className="skills-item">
-            Github <img src={github_photo} alt="icono" />
+            Github <img src={techIcons.github} alt="icono" />
           </li>
           <li className="skills-item">
-            JavaScript <img src={js_photo} alt="icono" />
+            JavaScript <img src={techIcons.js} alt="icono" />
           </li>
           <li className="skills-item width-3rem">
-            React <img src={react_photo} alt="icono" />
+            React <img src={techIcons.react} alt="icono" />
           </li>
           <li className="skills-item">
-            Vite <img src={vite_photo} alt="icono" />
+            Vite <img src={techIcons.vite} alt="icono" />
           </li>
           <li className="skills-item">
-            Redux <img src={redux_photo} alt="icono" />
+            Redux <img src={techIcons.redux} alt="icono" />
           </li>
           <li className="skills-item width-3rem">
-            Node.JS <img src={node_photo} alt="icono" />
+            Node.JS <img src={techIcons.node} alt="icono" />
           </li>
           <li className="skills-item">
-            NPM <img src={npm_photo} alt="icono" />
+            NPM <img src={techIcons.npm} alt="icono" />
           </li>
           <li className="skills-item">
             Express.JS{" "}
             <img
-              src={express_photo}
+              src={techIcons.express}
               style={{ filter: "invert(1)" }}
               alt="icono"
             />
           </li>
           <li className="skills-item width-3rem">
-            MySQL <img src={mysql_photo} alt="icono" />
+            PUG <img src={techIcons.pug} alt="icono" />
           </li>
           <li className="skills-item width-3rem">
-            MongoDB <img src={mongo_photo} alt="icono" />
+            MySQL <img src={techIcons.mysql} alt="icono" />
+          </li>
+          <li className="skills-item width-3rem">
+            MongoDB <img src={techIcons.mongo} alt="icono" />
           </li>
           <li className="skills-item">
-            Python <img src={python_photo} alt="icono" />
+            Python <img src={techIcons.python} alt="icono" />
           </li>
           <li className="skills-item width-3rem">
-            Java <img src={java_photo} alt="icono" />
+            Java <img src={techIcons.java} alt="icono" />
           </li>
         </ul>
       </div>
