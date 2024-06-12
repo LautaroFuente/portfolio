@@ -1,3 +1,5 @@
+import CV from "../files/CV.pdf";
+
 function MainContentStudies() {
   return (
     <>
@@ -12,7 +14,9 @@ function MainContentStudies() {
           PODES VER MIS ESTUDIOS Y MAS INFO EN MI CV
         </h3>
         <div>
-          <button className="btn-cv">Descargar CV aca!</button>
+          <a href={CV} download="CV.pdf">
+            <button className="btn-cv">Descargar CV aca!</button>
+          </a>
         </div>
       </div>
     </>

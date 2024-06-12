@@ -25,8 +25,8 @@ function MainContentAboutMe() {
           dí cuenta que era a lo que quería dedicarme, por lo que comencé mis
           estudios en la universidad y paralelamente por cuenta propia
           investigando y aprendiendo. <br />
-          Creo que mi mayor virtud es que aprendo rápido, me gusta estar
-          constantemente mejorando y aprendiendo cosas nuevas.
+          Me gusta aprender continuamente nuevas tecnologías para enfrentar
+          retos y problemas.
         </p>
       </div>
     </>
